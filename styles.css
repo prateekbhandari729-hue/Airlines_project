@@ -186,6 +186,18 @@ header {
   transition: transform 0.25s var(--ease), opacity 0.25s var(--ease);
 }
 
+.menu-toggle.active span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.menu-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle.active span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
 /* ===========================================================
    NAV
    =========================================================== */
@@ -618,8 +630,9 @@ nav {
   justify-content: center;
   gap: 0;
   background: var(--white);
-  padding: 110px 5% 50px;
+  /* padding: 110px 5% 50px; */
   box-shadow: var(--shadow-sm);
+  padding: 110px 5% 50px;
 }
 
 .stat-item {
@@ -1323,7 +1336,10 @@ footer {
   }
 
   .search-box {
-    margin-top: 28px;
+    /* margin: 44px auto -70px; */
+    /* margin-top: 28px; */
+    width: min(1000px, 92%);
+    margin: 44px auto 0;
   }
 
   .search-row,
@@ -1332,7 +1348,7 @@ footer {
   }
 
   .stats-strip {
-    padding-top: 90px;
+    padding-top: 50px;
   }
 
   .stat-item {
