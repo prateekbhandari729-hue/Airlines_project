@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Destiny Airlines — Fulfill Your Through Destiny</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,600;1,300&family=Barlow+Condensed:wght@700;900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo-wrap">
+        <div class="logo-main">
+          DESTINY <span class="plane-icon">✈️</span> AIRLINES
+        </div>
+        <div class="logo-tagline">Fulfill Your Through Destiny</div>
+      </div>
+      <div class="header-actions">
+        <button class="btn-login">Login</button>
+        <button class="btn-book">Book Now</button>
+      </div>
+    </header>
+
+    <nav>
+      <button class="nav-item active">Flight</button>
+      <button class="nav-item">Flight Info</button>
+      <button class="nav-item">Destinations</button>
+      <button class="nav-item">Ticket Status</button>
+      <button class="nav-item">Fleet</button>
+      <button class="nav-item">Contact</button>
+    </nav>
+
+    <div class="hero">
+      <div class="sky-bg"></div>
+      <div class="clouds">
+        <div class="cloud cloud-1"></div>
+        <div class="cloud cloud-2"></div>
+        <div class="cloud cloud-3"></div>
+        <div class="cloud cloud-4"></div>
+        <div class="cloud cloud-5"></div>
+      </div>
+      <div class="horizon"></div>
+      <div class="hero-plane">✈️</div>
+
+      <div class="hero-content">
+        <div class="hero-eyebrow">✦ Welcome Aboard ✦</div>
+        <div class="hero-title">
+          YOUR JOURNEY<br />TO <span>DESTINY</span><br />BEGINS HERE
+        </div>
+        <div class="hero-sub">
+          Where every flight carries you toward your true destination
+        </div>
+      </div>
+
+      <div class="search-box">
+        <div class="search-tabs">
+          <button class="stab active">One Way</button>
+          <button class="stab">Round Trip</button>
+          <button class="stab">Multi-City</button>
+        </div>
+        <div class="search-row">
+          <div class="field">
+            <label>From</label>
+            <input type="text" placeholder="Origin city…" />
+          </div>
+          <div class="field">
+            <label>To</label>
+            <input type="text" placeholder="Destination…" />
+          </div>
+          <div class="field">
+            <label>Departure</label>
+            <input type="date" />
+          </div>
+          <div class="field">
+            <label>Passengers</label>
+            <select>
+              <option>1 Adult</option>
+              <option>2 Adults</option>
+              <option>3 Adults</option>
+              <option>Family</option>
+            </select>
+          </div>
+          <button class="btn-search">Search Flights</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="stats-strip">
+      <div class="stat-item">
+        <div class="stat-num">240+</div>
+        <div class="stat-label">Destinations</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">98.4%</div>
+        <div class="stat-label">On-Time Rate</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">12M+</div>
+        <div class="stat-label">Happy Flyers</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">4.9★</div>
+        <div class="stat-label">Avg. Rating</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">60+</div>
+        <div class="stat-label">Countries Served</div>
+      </div>
+    </div>
+
+    <section class="destinations">
+      <div class="section-label">✦ Popular Routes</div>
+      <div class="section-title">TOP DESTINATIONS</div>
+      <div class="dest-grid">
+        <div class="dest-card">
+          <div
+            class="dest-img"
+            style="background: linear-gradient(135deg, #1a6b8a, #2bb5c5)">
+            <div class="dest-bg">🗼</div>
+            <div class="dest-code">CDG</div>
+            <div class="dest-city">Paris</div>
+          </div>
+          <div class="dest-info">
+            <div>
+              <div class="dest-route">KTM → Paris, France</div>
+              <div style="font-size: 0.75rem; color: #aaa; margin-top: 2px">
+                12h 30m · Direct
+              </div>
+            </div>
+            <div class="dest-price">$649 <span>/ person</span></div>
+          </div>
+        </div>
+        <div class="dest-card">
+          <div
+            class="dest-img"
+            style="background: linear-gradient(135deg, #c0392b, #e67e22)">
+            <div class="dest-bg">🗽</div>
+            <div class="dest-code">JFK</div>
+            <div class="dest-city">New York</div>
+          </div>
+          <div class="dest-info">
+            <div>
+              <div class="dest-route">KTM → New York, USA</div>
+              <div style="font-size: 0.75rem; color: #aaa; margin-top: 2px">
+                16h 45m · 1 Stop
+              </div>
+            </div>
+            <div class="dest-price">$820 <span>/ person</span></div>
+          </div>
+        </div>
+        <div class="dest-card">
+          <div
+            class="dest-img"
+            style="background: linear-gradient(135deg, #2c3e50, #8e44ad)">
+            <div class="dest-bg">🏙️</div>
+            <div class="dest-code">DXB</div>
+            <div class="dest-city">Dubai</div>
+          </div>
+          <div class="dest-info">
+            <div>
+              <div class="dest-route">KTM → Dubai, UAE</div>
+              <div style="font-size: 0.75rem; color: #aaa; margin-top: 2px">
+                4h 20m · Direct
+              </div>
+            </div>
+            <div class="dest-price">$310 <span>/ person</span></div>
+          </div>
+        </div>
+        <div class="dest-card">
+          <div
+            class="dest-img"
+            style="background: linear-gradient(135deg, #27ae60, #2980b9)">
+            <div class="dest-bg">🌸</div>
+            <div class="dest-code">NRT</div>
+            <div class="dest-city">Tokyo</div>
+          </div>
+          <div class="dest-info">
+            <div>
+              <div class="dest-route">KTM → Tokyo, Japan</div>
+              <div style="font-size: 0.75rem; color: #aaa; margin-top: 2px">
+                7h 55m · Direct
+              </div>
+            </div>
+            <div class="dest-price">$490 <span>/ person</span></div>
+          </div>
+        </div>
+        <div class="dest-card">
+          <div
+            class="dest-img"
+            style="background: linear-gradient(135deg, #f39c12, #d35400)">
+            <div class="dest-bg">🦁</div>
+            <div class="dest-code">NBO</div>
+            <div class="dest-city">Nairobi</div>
+          </div>
+          <div class="dest-info">
+            <div>
+              <div class="dest-route">KTM → Nairobi, Kenya</div>
+              <div style="font-size: 0.75rem; color: #aaa; margin-top: 2px">
+                9h 10m · 1 Stop
+              </div>
+            </div>
+            <div class="dest-price">$560 <span>/ person</span></div>
+          </div>
+        </div>
+        <div class="dest-card">
+          <div
+            class="dest-img"
+            style="background: linear-gradient(135deg, #16a085, #1abc9c)">
+            <div class="dest-bg">🏝️</div>
+            <div class="dest-code">SYD</div>
+            <div class="dest-city">Sydney</div>
+          </div>
+          <div class="dest-info">
+            <div>
+              <div class="dest-route">KTM → Sydney, Australia</div>
+              <div style="font-size: 0.75rem; color: #aaa; margin-top: 2px">
+                13h 30m · 1 Stop
+              </div>
+            </div>
+            <div class="dest-price">$740 <span>/ person</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="flight-info-section">
+      <div class="info-cols">
+        <div>
+          <div class="section-label">✦ Why Fly With Us</div>
+          <div class="section-title">FLIGHT INFO &amp;<br />SERVICES</div>
+          <ul class="info-list">
+            <li>
+              <div class="info-icon">🛋️</div>
+              <div>
+                <div class="info-title">Premium Cabin Comfort</div>
+                <div class="info-desc">
+                  Ergonomic seats with 42" pitch in Business, personal lie-flat
+                  pods in First Class, and extra legroom in Economy Plus.
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="info-icon">🍽️</div>
+              <div>
+                <div class="info-title">Gourmet Dining At Altitude</div>
+                <div class="info-desc">
+                  Chef-curated menus with regional specialties. Dietary
+                  accommodations available on all routes.
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="info-icon">📶</div>
+              <div>
+                <div class="info-title">High-Speed Wi-Fi Onboard</div>
+                <div class="info-desc">
+                  Stay connected at 35,000 ft with our seamless satellite Wi-Fi
+                  on all long-haul flights.
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="info-icon">🎒</div>
+              <div>
+                <div class="info-title">Generous Baggage Allowance</div>
+                <div class="info-desc">
+                  23kg checked + 7kg cabin included on all tickets. Extra bags
+                  from just $25.
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="info-img-wrap">
+          <div class="info-img-plane">✈️</div>
+          <div class="info-badge">
+            <div class="info-badge-text">CERTIFIED 5★ AIRLINE</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticket-section">
+      <div style="text-align: center">
+        <div class="section-label">✦ Real-Time Tracking</div>
+        <div class="section-title" style="color: white">
+          CHECK TICKET STATUS
+        </div>
+      </div>
+      <div class="ticket-panel">
+        <div
+          style="
+            font-family: &quot;Barlow Condensed&quot;, sans-serif;
+            font-size: 0.82rem;
+            font-weight: 700;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+          ">
+          Enter your booking reference
+        </div>
+        <div class="ticket-search-row">
+          <input
+            class="ticket-input"
+            type="text"
+            placeholder="Booking Ref (e.g. DA-290514)" />
+          <input
+            class="ticket-input"
+            type="text"
+            placeholder="Last Name"
+            style="max-width: 160px" />
+          <button class="btn-check">Check</button>
+        </div>
+
+        <div class="ticket-sample">
+          <div class="ticket-row">
+            <div class="ticket-airport">
+              <div class="ticket-code">KTM</div>
+              <div class="ticket-city">Kathmandu</div>
+            </div>
+            <div class="ticket-arrow">— ✈️ —</div>
+            <div class="ticket-airport">
+              <div class="ticket-code">DXB</div>
+              <div class="ticket-city">Dubai</div>
+            </div>
+          </div>
+          <hr class="ticket-divider" />
+          <div class="ticket-meta">
+            <div class="ticket-meta-item">
+              <div class="ticket-meta-label">Flight</div>
+              <div class="ticket-meta-value">DA-290</div>
+            </div>
+            <div class="ticket-meta-item">
+              <div class="ticket-meta-label">Date</div>
+              <div class="ticket-meta-value">22 May 2026</div>
+            </div>
+            <div class="ticket-meta-item">
+              <div class="ticket-meta-label">Departs</div>
+              <div class="ticket-meta-value">07:45</div>
+            </div>
+            <div class="ticket-meta-item">
+              <div class="ticket-meta-label">Class</div>
+              <div class="ticket-meta-value">Economy</div>
+            </div>
+            <div class="ticket-meta-item">
+              <div class="ticket-meta-label">Status</div>
+              <div class="ticket-meta-value" style="color: #27ae60">
+                On Time
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="fleet-section">
+      <div class="section-label">✦ Our Aircraft</div>
+      <div class="section-title">THE DESTINY FLEET</div>
+      <div class="fleet-grid">
+        <div class="fleet-card">
+          <div class="fleet-icon">✈️</div>
+          <div class="fleet-model">Boeing 787</div>
+          <div class="fleet-seats">Dreamliner · 296 seats</div>
+        </div>
+        <div class="fleet-card">
+          <div class="fleet-icon">🛫</div>
+          <div class="fleet-model">Airbus A380</div>
+          <div class="fleet-seats">Super Jumbo · 555 seats</div>
+        </div>
+        <div class="fleet-card">
+          <div class="fleet-icon">🛩️</div>
+          <div class="fleet-model">Boeing 737</div>
+          <div class="fleet-seats">Narrowbody · 189 seats</div>
+        </div>
+        <div class="fleet-card">
+          <div class="fleet-icon">✈️</div>
+          <div class="fleet-model">Airbus A350</div>
+          <div class="fleet-seats">XWB · 350 seats</div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo-main" style="color: white; font-size: 2rem">
+            DESTINY ✈️ AIRLINES
+          </div>
+          <div class="logo-tagline" style="color: rgba(255, 255, 255, 0.35)">
+            Fulfill Your Through Destiny
+          </div>
+          <p>
+            Connecting dreams to destinations since 2008. Fly with confidence,
+            arrive with purpose.
+          </p>
+        </div>
+        <div>
+          <div class="footer-col-title">Fly</div>
+          <ul class="footer-links">
+            <li><a href="#">Book a Flight</a></li>
+            <li><a href="#">Check-In Online</a></li>
+            <li><a href="#">Flight Status</a></li>
+            <li><a href="#">Manage Booking</a></li>
+            <li><a href="#">Special Meals</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Info</div>
+          <ul class="footer-links">
+            <li><a href="#">Baggage Policy</a></li>
+            <li><a href="#">Travel Insurance</a></li>
+            <li><a href="#">Visa Guide</a></li>
+            <li><a href="#">Loyalty Program</a></li>
+            <li><a href="#">Fleet</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Support</div>
+          <ul class="footer-links">
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Refunds</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-copy">
+          © 2026 Destiny Airlines. All rights reserved.
+        </div>
+        <div class="footer-socials">
+          <button class="social-btn" aria-label="Follow us on X">𝕏</button>
+          <button class="social-btn" aria-label="Follow us on Facebook">f</button>
+          <button class="social-btn" aria-label="Follow us on LinkedIn">in</button>
+          <button class="social-btn" aria-label="Watch us on YouTube">▶️</button>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
